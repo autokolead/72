@@ -18,7 +18,7 @@ Architecture: iphoneos-arm
 Description: Auto Lead iOS 10 - 10.2
 Author: Ngoctrinh							 <autokolead.github.io>
 Section: AK - Autolead72
-Depends: com.conradkramer.open,sqlite3,openssh,com.saurik.afc2d,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,com.superantim.xcon4,jetslammed,socat,com.superantim.hookkeyboard,com.superantim.icontool,com.cydiageek.coysim,com.superantim.locationfaker8910
+Depends: com.conradkramer.open,sqlite3,openssh,com.saurik.afc2d,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,com.autokolead.xcon4,jetslammed,socat,com.autokolead.hookkeyboard,com.autokolead.icontool,com.cydiageek.coysim,com.autokolead.locationfaker8910
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 Filename: ./debs/autolead72ak.deb
 Size: 243084
@@ -162,7 +162,7 @@ Architecture: iphoneos-arm
 Description: autolead for iOS 9.2.1 - 10.3.3
 Author: Ngoctrinh							 (autokolead.github.io)
 Section: AK - Autolead73
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.superantim.hookkeyboard73,com.superantim.icontool73,com.superantim.73locationfaker8910
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.autokolead.hookkeyboard73,com.autokolead.icontool73,com.autokolead.73locationfaker8910
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
 Filename: ./debs/autolead73ak.deb
 Size: 243060
@@ -220,3 +220,15 @@ Filename: ./debs/locationfaker73ak.deb
 Size: 551094
 MD5sum: f48415965e1183e9ad185122bccb94dc
 
+Package: com.autokolead.sslkillswitch2
+Name: SSL Kill Switch 2
+Version: 0.11-1
+Architecture: iphoneos-arm
+Description: ByPass SSL certificate - within iOS 9.2.1-10.3.3
+Maintainer: KidsAuto			 <autokolead.github.io>
+Author: autokolead.github.io
+Section: AK - Autolead72
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/sslkill72.deb
+Size: 10106
+MD5sum: bd5c03b7b00c029da117c3b319e7feda
