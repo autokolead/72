@@ -179,7 +179,7 @@ Section: AK - Autolead72
 Depends: mobilesubstrate
 Filename: ./debs/eClearData73ak.deb
 Size: 41380
-MD5sum: 4be15ebff0C86bd2431e48ca0e5ad254
+MD5sum: 4be15ebff0c86bd2431e48ca0E5ad254
 
 Package: com.autokolead.hookkeyboard73
 Name: hookkeyboard
