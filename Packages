@@ -169,7 +169,7 @@ Size: 243060
 MD5sum: 79004ee36446dbcb4a08a41fcb82523e
 
 Package: com.autokolead.eClearData73
-Name: eClearData73
+Name: wTabwData73
 Version: 0.1.1~k
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak for Autokolead!
